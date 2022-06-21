@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DetailsFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/currencyNameDetailsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="BTC"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Price"
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/currencyPriceDetailsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="300000"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Market Cap"
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/currencyMarketCapDetailsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20000000"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Max Supply"
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/currencyMaxSupplyDetailsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="300000000"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>

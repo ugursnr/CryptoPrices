@@ -18,5 +18,5 @@ Technology
 - Room - Local storage (not implemented yet)
 - Navigation Component
 - View Binding
-- 
+
 PS. Unit Tests and UI/UX improvements will be impemented.

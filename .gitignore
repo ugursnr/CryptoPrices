@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+apiKey= "currencies/ticker?key=c65f26b372b798fa49046f91471d515f9155c6dd"

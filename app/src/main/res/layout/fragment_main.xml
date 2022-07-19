@@ -22,18 +22,21 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="NAME"
+            android:text="@string/name"
             android:textSize="20sp"
-            android:layout_weight="1"
-            android:textStyle="bold"/>
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingStart="4dp"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="PRICE"
+            android:text="@string/price"
             android:textSize="20sp"
             android:layout_weight="2"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
 
     </LinearLayout>

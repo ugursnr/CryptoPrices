@@ -11,22 +11,26 @@
         android:id="@+id/currencyNameText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="BTC"
-        android:textSize="24sp"
+        android:text="@string/btc"
+        android:textSize="34sp"
         android:layout_weight="30"
         android:padding="10dp"
         android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_bold"
 
         />
     <TextView
         android:id="@+id/currencyPriceText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="30000"
-        android:textSize="20sp"
+        android:text="@string/_300000"
+        android:textSize="30sp"
         android:layout_weight="70"
         android:padding="10dp"
         android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_regular"
         />
 
 </LinearLayout>

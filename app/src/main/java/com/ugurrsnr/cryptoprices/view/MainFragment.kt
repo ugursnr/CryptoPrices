@@ -1,14 +1,14 @@
 package com.ugurrsnr.cryptoprices.view
 
 import android.os.Bundle
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import android.widget.Toast
+import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.ugurrsnr.cryptoprices.R
 import com.ugurrsnr.cryptoprices.adapter.CryptoAdapter
 import com.ugurrsnr.cryptoprices.databinding.FragmentMainBinding
 import com.ugurrsnr.cryptoprices.model.Crypto
@@ -75,5 +75,7 @@ class MainFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+
 
 }
